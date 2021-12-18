@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #111;
+}
+.row_options{
+  width:100%;
+  object-fit: contain;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: transfrom 450ms;
+}
+.row_option{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding:20 px;
+}
+.row_options:hover{
+    transform: scale(1.08);
+}
+.row_option::-webkit-scrollbar{
+    display: none;
+}
+.row_posterLarge{
+    max-height: 250px;
+}
+.rows{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.banner{
+    background-image: url("netflix-images/banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    color:azure;
+    object-fit: contain;
+    height: 350px;
+}
+.banner_contents{
+    margin-left: 30px;
+    padding-top: 140px;
+    height:90px;
+}
+.banner_title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+
+}
+.buttons{
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 0.2vw;
+    outline: none;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem ;
+    margin-left:1 rem ;
+    color:aliceblue;
+    background-color: black;
+}
+.buttons:hover{
+    color:#111;
+    background-color: aliceblue;
+    transition: all 0.2s;
+}
+.banner_bottom{
+    margin-top: 80px;
+    height:13rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+}
+.nav_logo{
+    width:60px;
+    object-fit: contain;
+}
+.nav_avatar{
+    width:60px;
+    object-fit: contain;
+}
+.nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    z-index:1;
+    transition-timing-function: ease-in;
+    transition: all 0.5 s;
+}
+.nav_black{
+    background-color: black;
+
+}

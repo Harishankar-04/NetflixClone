@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <div class="nav" id="nav">
+      <img src="netflix-images/netflix-logo.png" alt="" class="nav_logo">
+      <img src="netflix-images/netflix-avatar.png" alt="" class="nav_avatar">
+   </div>
+    <div class="banner">
+        <div class="banner_contents">
+            <h2 class="banner_title">Money heist</h2>
+            <div >
+                <button class="buttons">Play</button>
+                <button class="buttons">MyList</button>
+            </div>
+        </div>
+    <div class="banner_bottom"></div>
+    </div>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="rows">
+      <h1>NETFLIX ORIGINALS</h1>
+      <div class="row_option">
+    <img src="netflix-images/large-movie1.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie2.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie3.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie4.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie5.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie6.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie1.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie2.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie3.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie4.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie5.jpg" alt="" class="row_options row_posterLarge">
+    <img src="netflix-images/large-movie6.jpg" alt="" class="row_options row_posterLarge">
+      </div>
+  </div>  
+  <div class="rows">
+    <h1>TRENDING NOW</h1>
+    <div class="row_option">
+  
+  <img src="netflix-images/small-movie1.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie2.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie3.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie4.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie5.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie6.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie1.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie2.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie3.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie4.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie5.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie6.jpg" alt="" class="row_options">
+    </div>
+</div>
+
+<div class="rows">
+    <h1>TOP RATED</h1>
+    <div class="row_option">
+    
+ <img src="netflix-images/small-movie1.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie2.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie3.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie4.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie5.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie6.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie1.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie2.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie3.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie4.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie5.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie6.jpg" alt="" class="row_options">
+    </div>
+</div>
+
+<div class="rows">
+    <h1>HORROR MOVIES</h1>
+    <div class="row_option">
+  <img src="netflix-images/small-movie1.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie2.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie3.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie4.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie5.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie6.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie1.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie2.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie2.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie3.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie4.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie5.jpg" alt="" class="row_options">
+  <img src="netflix-images/small-movie6.jpg" alt="" class="row_options">
+    </div>
+</div>
+
+
+</body>
+<script>
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>{
+  if(window.scrollY>=100){
+    nav.classList.add('nav_black');
+  }
+  else{
+    nav.classList.remove('nav_black');
+  }
+})
+
+</script>
+</html>
+
